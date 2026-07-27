@@ -1,8 +1,26 @@
 aid: high-mark-credit-information-services
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/high-mark-credit-information-services.png
 name: High Mark Credit Information Services
-description: High Mark Credit Information Services is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: High Mark Credit Information Services (now operating as CRIF High Mark) is one of India's
+  four RBI-licensed credit bureaus, headquartered in Mumbai. It maintains credit information on retail,
+  microfinance, and commercial borrowers, and delivers credit reports, bureau scores, analytics, portfolio
+  monitoring, fraud-detection, and origination-decisioning solutions to banks, NBFCs, microfinance
+  institutions, insurers, and telecom providers. The bureau is best known for its microfinance credit
+  information services and pan-India retail and commercial credit databases. It was surfaced as a
+  portfolio company of Battery Ventures and profiled in the API Evangelist network; it publishes no
+  public developer portal or API specification, so this profile captures company identity and domain
+  security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/high-mark-credit-information-services/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Credit Bureau
+- Credit Information
+- Credit Scoring
+- Financial Services
+- Risk Analytics
+- Microfinance
+- Lending
+- India
 apis: []
+common:
+- type: DomainSecurity
+  url: security/high-mark-credit-information-services-domain-security.yml
+- type: Website
+  url: https://www.crifhighmark.com
+- type: Blog
+  url: https://www.crifhighmark.com/insights/blog
+- type: Support
+  url: https://www.crifhighmark.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.crifhighmark.com/privacy-policy
+- type: Login
+  url: https://hub.crifhighmark.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
