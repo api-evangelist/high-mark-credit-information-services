@@ -1,0 +1,25 @@
+# Front Door AI Index — high-mark-credit-information-services — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: high-mark-credit-information-services
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.crifhighmark.com
+  final_host: www.crifhighmark.com
+  ownership: own
+  owner: high-mark-credit-information-services
+  shares_host_with: null
+  inherited_from: null
+  verdict: silent
+  score: 0
+  host_score: 0
+  density: 0.0
+  words: 494
+  tiers:
+    agentic: 0
+    core: 0
+    model: 0
+  ambiguous: 1
+  top_terms:
+    automation: 1
