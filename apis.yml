@@ -47,7 +47,7 @@ tags:
 - Credit Bureau
 - Credit Information
 - Credit Scoring
-- Financial-Services
+- Financial Services
 - Risk Analytics
 - Microfinance
 - Lending
@@ -62,6 +62,7 @@ tags_raw:
 - Microfinance
 - Lending
 - India
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
